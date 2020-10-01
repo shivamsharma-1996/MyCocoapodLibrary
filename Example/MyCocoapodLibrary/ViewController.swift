@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let path = frameworkBundle.path(forResource: "Resources", ofType: "bundle")
         let resourceBundle = Bundle(url: URL(fileURLWithPath: path!))
         let image = UIImage(named: "flowers.png", in: resourceBundle, compatibleWith: nil)
-        print(image)
+        print(image!)
     }
 
     override func didReceiveMemoryWarning() {

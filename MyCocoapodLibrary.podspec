@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyCocoapodLibrary'
-  s.version          = '0.1.0'
-  s.summary          = 'This is meaningful summary of my pod'
+  s.version          = '0.2.0'
+  s.summary          = 'This is meaningful-summary of my pod'
 
-# This description is used to generate tags and improve search results.
+# This description is used to generate tags and improve search results
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary'
+  s.homepage         = 'https://github.com/shivamsharma-1996/MyCocoapodLibrary.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sanyam.j65@gmail.com' => 'shivams@patchus.in' }
-  s.source           = { :git => 'https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'shivamsharma707@yahoo.com' => 'shivamsharma-1996' }
+  s.source           = { :git => 'https://github.com/shivamsharma-1996/MyCocoapodLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 s.swift_version = "5.0"
   s.ios.deployment_target = '8.0'
