@@ -1,0 +1,27 @@
+{
+  "name": "MyCocoapodLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MyCocoapodLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sanyam.j65@gmail.com": "shivams@patchus.in"
+  },
+  "source": {
+    "git": "https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyCocoapodLibrary/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "MyCocoapodLibrary/Assets/flowers.png"
+    ]
+  }
+}
