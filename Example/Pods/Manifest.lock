@@ -1,15 +1,22 @@
 PODS:
-  - MyCocoapodLibrary (0.1.0)
+  - Alamofire (5.2.0)
+  - MyCocoapodLibrary (0.2.0):
+    - Alamofire (= 5.2)
 
 DEPENDENCIES:
   - MyCocoapodLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   MyCocoapodLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyCocoapodLibrary: af352099f68ac46a796f0e2b4cb7fa4c51abead2
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  MyCocoapodLibrary: 0fade65f32f54795525328af5d2ef7027c6220dc
 
 PODFILE CHECKSUM: 85c4fe0208d2c9f84fa7de1538bef91810db78d7
 

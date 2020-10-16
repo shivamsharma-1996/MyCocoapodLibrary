@@ -1,27 +1,34 @@
 {
   "name": "MyCocoapodLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of MyCocoapodLibrary.",
+  "version": "0.2.0",
+  "summary": "This is meaningful-summary of my pod",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary",
+  "homepage": "https://github.com/shivamsharma-1996/MyCocoapodLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sanyam.j65@gmail.com": "shivams@patchus.in"
+    "shivamsharma707@yahoo.com": "shivamsharma-1996"
   },
   "source": {
-    "git": "https://github.com/sanyam.j65@gmail.com/MyCocoapodLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/shivamsharma-1996/MyCocoapodLibrary.git",
+    "tag": "0.2.0"
   },
+  "dependencies": {
+    "Alamofire": [
+      "5.2"
+    ]
+  },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "MyCocoapodLibrary/Classes/**/*",
   "resource_bundles": {
     "Resources": [
       "MyCocoapodLibrary/Assets/flowers.png"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
